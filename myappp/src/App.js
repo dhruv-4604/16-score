@@ -32,7 +32,7 @@ function App() {
     };
 
     // Fetch data every 3 seconds instead of 100ms
-    const interval = setInterval(fetchData, 210);
+    const interval = setInterval(fetchData, 1000);
     
     // Initial fetch
     fetchData();
