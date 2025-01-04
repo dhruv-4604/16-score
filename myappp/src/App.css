@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.teams-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.teams-table th,
+.teams-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.team-logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.player-status {
+  display: flex;
+  gap: 8px;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-indicator.alive {
+  background-color: #4CAF50;
+}
+
+.status-indicator.dead {
+  background-color: #f44336;
+}
+
+.error-message {
+  color: red;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
